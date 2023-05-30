@@ -29,7 +29,7 @@ with st.form("captura"):
     clube_3 = st.selectbox("Escolha seu clube", options=('América', 'Athlético', 'Atlético-MG', 'Bahia', 'Botafogo', 'Coritiba', 'Cruzeiro', 'Cuiabá', 'Fluminense', 'Fortaleza', 'Goiás', 'Grêmio', 'Internacional', 'Palmeiras', 'Red Bull', 'Santos', 'São Paulo', 'Vasco'))
     colocação_3 = st.selectbox("Escolha a colocação de seu clube", options=club_options)
 
-    contrato = st.radio("Defina o valor do Contrato", options=('3 bilhões', '4 bilhões', '5 bilhões'))
+    contrato = st.radio("Defina o valor bruto do Contrato", options=('3 bilhões', '4 bilhões', '5 bilhões'))
     button = st.form_submit_button("Comparar!")
 
 if button:
