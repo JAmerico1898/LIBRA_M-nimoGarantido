@@ -509,7 +509,7 @@ if button:
     fig, ax = plt.subplots()
     rects1 = ax.bar(ind - width/2, faturamento_1, width, label=f"{clube_1}, {colocação_1}", zorder=1, color='#B6282F', alpha=1)
     rects2 = ax.bar(ind + width/2, faturamento_2, width, label=f"{clube_2}, {colocação_2}", zorder=1, color='black', alpha=1)
-    rects3 = ax.bar(ind + 1.5*width, faturamento_3, width, label=f"{clube_3}, {colocação_3}", zorder=1, color='#344D94', alpha=1)
+    rects3 = ax.bar(ind + 1.5*width, faturamento_3, width, label=f"{clube_3}, {colocação_3}", zorder=1, color='grey', alpha=1)
 
 
     plt.ylim([0, 500])
